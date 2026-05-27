@@ -21,7 +21,19 @@ Informationen werden im Internet als Bits übertragen. Bits haben zwei Werte: 0 
 
 Bits können über verschiedene Übertragungsmedien zwischen Computern versendet werden. Die Anzahl der übertragenen Bits pro Sekunde wird als Bandbreite bezeichnet - z.B.: 300MBits/s -> 300 Millionen Bitkönnen pro Sekunde über diese Leitung laufen.
 
-1. Kupfer / Elektrizität 
-Kupferkabel sind billig
- 
+1. Kupfer / Elektrizität
+    - billig
+    - einfach in der Verarbeitung
+    - weit verbreitet
+    - hohe Verlust über lange Distanzen (hunderte Meter)
+
 2. Glasfaser / Licht 
+    - schnelle Übertragung
+    - verlustfrei
+    - geeignet für Ozeankabel
+    - teuer und Schwierig in der Verarbeitung
+
+3. Funk / Radiowellen
+    - hohe Verluste über Distanzen 
+    - hoher Komfort, Internet überall
+    - hohe Verluste über Distanzen
