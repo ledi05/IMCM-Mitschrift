@@ -5,3 +5,11 @@ Das ist die README.md-Datei. md steht für Markdown. Markdown ist eine im Intern
 - Hypertext Markup Language (HTML)
 - Extensible Markup Language (XML)
 - Yet Another Markup Language (YAML, YML)
+
+## Playlist zur Funktionsweise des Internets 
+
+### Teil 1 - What is the Internet?
+- wurde in den 1970er-Jahren erfunden
+- Motivation: Schaffung eines dezentralen Netzwerks, das auch nach einem Atomschlag noch funktioniert (Kontext des kalten Krieges)
+- Funktionsweise: Paketvermittlung (*Packet Switching*) - jedes Datenpaket sucht eine eigene Route durch das Netzwerk  
+- Internet: das Netz der Netze - besteht aus vielen kleinen Netzen unterschiedlicher Internetanbieter (*Internet Service Provider - ISP*, z.B.: A1, Magenta, Salzburger AG, ...)
