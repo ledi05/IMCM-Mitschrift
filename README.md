@@ -80,6 +80,7 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
  
 
 3. Funk / Radiowellen
+<<<<<<< HEAD
 
 - hoher Komfort, Internet überall
 
@@ -342,3 +343,39 @@ Wikipedia
 Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
 
 de.wikepedia.org
+=======
+    - hohe Verluste über Distanzen 
+    - hoher Komfort, Internet überall
+    - hohe Verluste über Distanzen
+4. Daten, die über das Internet versendet werden, werden in Pakete aufgeteilt 
+    - Pakete sind in der Regel rund 1500 Byte groß (=1.5 KB). das heißt, ein 10MB großes Foto würde in etwa 6667 Pakete aufgeteilt werden.(10MB = 10.000 KB = 10.000.000 Byte / 1500 Byte = 6667 Pakete)
+    - Pakete können unterschiedliche Routen durch das Internet nehmen. Die Routenplanung erfolgt durch das Internet nehmen. Die Routenplanung
+    erfolgt durch spezielle Computer sogenannten Router. Router entscheiden welchen Weg ein Paket durch das Internet nimmt. Die Entscheidung basiert auf verschiedene Faktoren, wie z.B. der akutellen Auslastung der Verbindung und der Entfernung zum Ziel.
+    - jedes Paket enthält die IP-Adresse der Quelle und das Zieles sowie die Reihenfolge der Pakete(damit sie am Ziel wieder korrekt zusammengesetz werden können) 
+    - am Ziel wird die Vollständigkeit der Pakete durch das *Transmission Control Protocol* (TCP) ünerprüft. Wenn Pakete verloren gehen, fordert TCP die erneute Übertragung an.
+    - TCP und IP bilden gemeinsam die Basis für die Funktionsweise des Internets - man spricht auch vom TCP/IP-Modell
+
+    ### Teil 3 - The Internet: HTTP and HTML
+
+    - das *Hypertext Transfer Protocol* (HTTP) ist das Protokoll, das für dir Übertragung von Websiten verwendet wird
+    - der Ablauf ist immer derselbe: 
+    1. der Web-Client (Browser) schickt eine 
+    HTTP-Anfrage (*Request*) an den Web-Server
+    2. der Web-Server übernimmt die Anfrage, bearbeitet sie und schickt eine 
+    HTTP-Antwort (*Response*) zurück an den Client. Dabei versieht er die Antwort mit einem [HTTP-Statuscode]
+(https://de.wikipedia.org/wiki/HTTP-Statuscode). Diese sind in verschiedenen Klassen eingeteilt.
+>[!NOTE]
+>#### HTTP-Statuscode-Klassen
+>
+> - **1xx** - die Anfrage dauert nochan
+> - **2xx** - die Anfrage war erfolgreich
+> - **3xx** - Weiter- oder Umleitung
+> - **4xx** - Clientfehler (z.B. 404- Not Found)
+> - **5xx** - Serverfehler
+
+- Daten (Websiten,Bilder,Videos usw...)  werden mittels GET-Anfragen angefordert  
+- User-Input (Texteingaben,Dateinuploads, ...) werden mittels POST - Anfragen verschlüsselt übermittelt
+- GET und POST sind sogenannte
+**HTTP-Methoden**. Es gibt noch weitere Methoden, die wir erst später lernen.
+- HTTP-Anfragen und Antworten können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es mit jeder Anfrage mitgesendet. So kann der Webserver einzelne User wiederkennen bzw. identifizieren.
+>>>>>>> 11e614ff38520a147fe574eb2031ec0e5f264966
